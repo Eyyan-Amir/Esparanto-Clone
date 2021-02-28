@@ -1,0 +1,160 @@
+* {
+	margin: 0%;
+	padding: 0%;
+	box-sizing: border-box;
+	font-family: 'josefin', cursive;
+}
+html {
+	font-size: 62.5%;
+}
+/* width */
+::-webkit-scrollbar {
+	width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+	background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+	background: #888;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+	background: #555;
+}
+body {
+	height: 100vh;
+	background: rgb(226, 222, 222);
+	z-index: -999;
+	overflow-x: hidden;
+}
+.container {
+	/* background: #000; */
+	overflow: hidden;
+}
+.svgDiv {
+	height: 100vh;
+	width: 100vw;
+	position: relative;
+	/* background: #000; */
+}
+.item {
+	position: absolute;
+	top: -70%;
+	z-index: -1;
+}
+
+svg path#motionPath {
+	fill: transparent;
+}
+.header {
+	position: fixed;
+	height: 10vh;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	width: 100%;
+	top: 1rem;
+	z-index: 999;
+}
+.text {
+	font-family: 0.71rem;
+}
+.text2 {
+	font-family: 'Courier New', Courier, monospace;
+	font-size: 4rem;
+}
+.nameHolder {
+	width: 60%;
+	height: 35%;
+	position: absolute;
+	top: 40%;
+}
+.name {
+	width: 100%;
+	height: auto;
+	font-size: 17rem;
+	font-weight: bolder;
+	margin-left: 2rem;
+	color: #fff;
+	transform: scale(1.2);
+}
+.sTour {
+	position: relative;
+	top: -10%;
+	left: 50%;
+	height: 60vh;
+	width: 33vw;
+}
+.imgWrapper {
+	position: absolute;
+	left: 35%;
+	/* background-color: red; */
+	height: 100%;
+	width: 65%;
+}
+.styleImg {
+	width: 100%;
+	height: auto;
+}
+.tourText {
+	position: absolute;
+	left: -40%;
+	height: 30rem;
+	width: 30rem;
+	/* background-color: black; */
+}
+.lahesh {
+	color: #fff;
+	font-size: 6rem;
+	font-weight: bolder;
+	z-index: -5;
+}
+.kavinda {
+	color: red;
+	font-size: 7rem;
+	font-weight: bolder;
+}
+.textParagraph {
+	font-size: 2rem;
+	margin-bottom: 6rem;
+}
+.readBtn {
+	text-decoration: none;
+	padding: 2rem 3.5rem;
+	background-color: #fff;
+	color: red;
+	font-size: 2.1rem;
+	letter-spacing: 2px;
+}
+.nameHolder2 {
+	width: 60%;
+	height: 35%;
+	position: absolute;
+	top: 90rem;
+	left: 65rem;
+}
+.name2 {
+	width: 100%;
+	height: auto;
+	font-size: 17rem;
+	font-weight: bolder;
+	margin-left: 2rem;
+	color: #fff;
+	transform: scale(1.2);
+}
+/* #tractor {
+	position: absolute;
+	background: #000;
+	height: 20vh;
+	width: 20vw;
+	top: 1%;
+}
+svg {
+	position: absolute;
+	top: -182%;
+} */
